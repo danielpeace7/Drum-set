@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #DF7861;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #94B49F;
+  font-family: 'Tangerine', cursive;
+}
+
+.drum-set {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  color: #94B49F;
+}
+
+a {
+  color: #94B49F;
+}
+
+a:hover {
+  color: white
+}
+
+.w {
+  background-image: url(images/tom-drum.png);
+}
+
+.a {
+  background-image: url(images/tom-drum.png);
+}
+
+.s {
+  background-image: url(images/floor-tom.png);
+}
+
+.d {
+  background-image: url(images/floor-tom.png);
+}
+
+.j {
+  background-image: url(images/snare-drum.png);
+}
+
+.k {
+  background-image: url(images/hi-hat.png);
+}
+
+.l {
+  background-image: url(images/bass-drum.png);
+}
+
+.w, .a, .s, .d, .j, .k, .l {
+  background-size: contain;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+/* .game-over {
+  background-color: red;
+  opacity: 0.8;
+} */
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+/* .red {
+  color: red;
+} */
+
+.drum {
+  outline: none;
+  border: 10px solid #FCF8E8;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  font-family: 'Tangerine', sans-serif;
+  color: #ECB390;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #94B49F;
+}
